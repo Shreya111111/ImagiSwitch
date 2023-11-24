@@ -1,0 +1,10 @@
+{
+	"manifest_version": 3,
+	"name": "File Converter",
+	"description": "Convert JPG to PNG and vice versa",
+	"version": "1.0",
+	"action": {
+	"default_icon": "icons/icon1.png",
+	"default_popup": "popup.html"
+	}
+}

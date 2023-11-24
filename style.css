@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #3498db; /* Blue background color */
+    font-family: 'Open Sans', sans-serif; /* Change to a more modern font */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.form-control {
+    margin-top: 20px;
+}
+
+.btn-png, .btn-jpg {
+    margin: 20px auto; /* Center the buttons */
+    display: block;
+    padding: 10px 25px; /* Smaller padding */
+    height: 40px; /* Smaller height */
+    font-size: 16px; /* Smaller font size */
+    font-weight: 600; /* Bolder font weight */
+    text-transform: uppercase;
+    border: 2px solid #2c3e50; /* Dark border */
+    background: #27ae60; /* Green background color */
+    color: #ffffff; /* White text color */
+    cursor: pointer;
+    border-radius: 20px; /* Rounder corners */
+    text-decoration: none; /* Remove underline */
+}
+
+.btn-jpg {
+    background: #e74c3c; /* Red background color for JPG button */
+}
+
+.converter {
+    text-align: center;
+}
+
+h1 {
+    background-color: #e74c3c; /* Red background color for heading */
+    font-weight: 900;
+    width: 100%;
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* More padding */
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    font-weight: 200;
+    color: #ffffff; /* White text color */
+}
+
+footer {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 12px; /* Larger font size */
+    color: #7f8c8d; /* Gray text color */
+}
